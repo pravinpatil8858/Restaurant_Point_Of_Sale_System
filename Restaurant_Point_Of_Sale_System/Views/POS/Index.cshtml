@@ -1,0 +1,422 @@
+﻿@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/styles.cshtml";
+}
+
+
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand md-0 h1">Restaurant Coffe Shop POS</span>
+</nav>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="container">
+            <div class="list-group-item list-group-item-action active">
+                Snacks
+            </div>
+            <div class="panel-body bg-dark" style="color:white">
+                <form id="frm-project">
+
+                    <div class="panel-body bg-dark" style="color:white">
+                        <table class="table table-bordered" style="color:white">
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="NuggetFries" />
+                                    <label>Nugget Fries</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="VillageFries" />
+                                    <label>Village Fries</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Fries" />
+                                    <label>Fries</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Sandwich" />
+                                    <label>Sandwich</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="VegBurger" />
+                                    <label>Veg Burger</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="VegPizza" />
+                                    <label>Veg Pizza</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Pasta" />
+                                    <label>Pasta</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="ChickenPocket" />
+                                    <label>Chicken Pocket</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="HotDog" />
+                                    <label>Hot Dog</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-4">
+
+        <div class="container">
+            <div class="list-group-item list-group-item-action active">
+                Coffee & Beverages
+            </div>
+            <div class="panel-body bg-dark" style="color:white">
+                <form id="frm-project">
+
+                    <div class="panel-body bg-dark" style="color:white">
+                        <table class="table table-bordered" style="color:white">
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Tea" />
+                                    <label>Tea</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="HotCoffee" />
+                                    <label>Hot Coffee</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="ColdCoffee" />
+                                    <label>Cold Coffee</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Cuppachino" />
+                                    <label>Cuppachino</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="CafeLatte" />
+                                    <label>Cafe Latte</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="BelgianChocolate" />
+                                    <label>Belgian Chocolate</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Espresso" />
+                                    <label>Espresso</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Lemonade" />
+                                    <label>Lemonade</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="MilkShake" />
+                                    <label>Milk Shake</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="Mojito" />
+                                    <label>Mojito</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="OrangeJuice" />
+                                    <label>Orange Juice</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="POS" value="AppleJuice" />
+                                    <label>AppleJuice</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="qty" id="qty" size="10px" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" align="right">
+                                    <input type="button" class="btn btn-info" value="Add" onclick="Add()" />
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-sm-4">
+        <div class="container">
+            <div class="list-group-item list-group-item-action active">
+                AddProducts
+            </div>
+            <table id="tbl-item" class="table table-bordered" cellpadding="0" width="100%" align="center">
+                <thead>
+                    <tr>
+                        <th>Delete</th>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                <tbody>
+                </tbody>
+                </thead>
+            </table>
+        </div>
+        <div class="col-sm-4">
+            <div class="container">
+                <div class="list-group-item list-group-item-action active">
+                    Bill
+                </div>
+                <div>
+                    <label>Total</label>
+                    <input type="text" style="color:yellow; background:black; font-size:30px;" id="total" name="total" placeholder="Total" required />
+                </div>
+
+                <div>
+                    <input type="button" class="btn btn-info" value="Reset" name="reset" id="reset" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        var tot = 0;
+        var total = 0;
+
+        function Add() {
+            $("input[name = 'POS']:checked").each(fuction()
+                {
+                    let check = $(this).val();
+                    var price = null;
+
+             if(check == "NuggetFries")
+            {
+                price = 120;
+            }
+            else if (check == "VillageFries") {
+                price = 150;
+            }
+            else if (check == "Fries") {
+                price = 100;
+            }
+            else if (check == "Sandwich") {
+                price = 90;
+            }
+            else if (check == "VegBurger") {
+                price = 120;
+            }
+            else if (check == "VegPizza") {
+                price = 130;
+            }
+            else if (check == "Pasta") {
+                price = 140;
+            }
+            else if (check == "ChickenPocket") {
+                price = 180;
+            }
+            else if (check == "HotDog") {
+                price = 180;
+            }            
+            else if (check == "Tea") {
+            price = 25;
+            }
+            else if (check == "HotCoffee") {
+                price = 40;
+            }
+            else if (check == "ColdCoffee") {
+                price = 60;
+            }
+            else if (check == "Cuppachino") {
+                price = 70;
+            }
+            else if (check == "CafeLatte") {
+                price = 70;
+            }
+            else if (check == "BelgianChocolate") {
+                price = 80;
+            }
+            else if (check == "Espresso") {
+                price = 70;
+            }
+            else if (check == "Lemonade") {
+                price = 90;
+            }
+            else if (check == "MilkShake") {
+                price = 100;
+            }
+            else if (check == "Mojito") {
+                price = 70;
+            }
+            else if (check == "OrangeJuice") {
+                price = 60;
+            }
+            else if (check == "AppleJuice") {
+                price = 90;
+            }
+
+            var qty = $(this).closest("tr").find('[name="qty"]').val() || 0;
+            tot = qty*price;
+
+            var table =
+
+                <tr> +
+                <td><button type='button' name='record' class='btn btn-warning' onclick='deleterow(this)'> Delete </td> +
+                <td> + check + </td>
+                <td> + price + </td>
+                <td> + qty + </td>
+                <td> + tot + </td> +
+                </tr>;
+
+            total += Number(tot);
+            $("#total").val(total);
+
+            $("#tbl-item tbody").append(table);
+            $(e).parent().parent().remove();
+        }
+
+                );
+            }
+
+        function deleterow(e)
+        {
+            totalcost = parseInt($(e).parent().parent().find('td:last').text(), 10);
+            total -= totalcost;
+            $('#total').val(total);
+            $(e).parent().parent().remove();
+        }
+
+        $('#reset').click(fuction)
+        {
+            location.reload();
+        }
+    </script>
+}
